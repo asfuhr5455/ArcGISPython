@@ -1,0 +1,9 @@
+import arcpy
+from arcpy import env
+env.overwriteOuput = True
+env.workspace = "P:/Python/Python/Data/Exercise06"
+arcpy.CreateFileGDB_management("P:/Python/Python/Data/Exercise06/Results", "Stuff.gdb")
+fclist = arcpy.ListFeatureClasses()
+for features in fclist:
+    print ListFeatureClasses()
+    print fcdesc.shapeType
