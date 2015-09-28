@@ -1,0 +1,14 @@
+Challenge 1
+
+Add XY Coordinates:
+
+The required parameters for Add XY coordinates are in_features. (AddXY_management(in_features))
+the coverage one has an optional parameter of feature_type.
+
+Dissolve:
+
+Dissolve parameters are in_cover, out_cover, and dissolve_item
+The optional parameters are feature_type
+
+
+    
