@@ -1,0 +1,6 @@
+def countstringfields(x):
+    a = 0
+    for fields in x:
+        if type(fields) == str:
+            a.append(fields)
+        
