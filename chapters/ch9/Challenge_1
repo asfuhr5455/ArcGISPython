@@ -1,0 +1,12 @@
+import arcpy
+from arcpy import env
+from arcpy.sa import *
+env.workspace = "P:/Python/Python/Data/Exercise09"
+slope = Slope(elevraster)
+for items in env.workspace:
+    if slope >= 5 and slope <= 20:
+        print "Moderate slope" + item
+    if slope >= 150 and slope <=270:
+        print "Southerly aspect" +item
+    if Remapvalue = 41 or Remapvalue = 42 or Remapvalue = 43:
+        print "Forested land" + item
